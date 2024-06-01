@@ -36,7 +36,7 @@ const removeNavbar=()=>{
         <li className='navItem'>
              <a href='/'  className='navLink'>Contact</a>
         </li>
-        <button className='btn' > <a href='/'href="#">Book now</a></button>
+        <button className='btn' > <a href='/'>Book now</a></button>
     </ul>
     <div  onClick={removeNavbar} className='closeNavbar'><IoIosCloseCircle /></div>
 </div>
