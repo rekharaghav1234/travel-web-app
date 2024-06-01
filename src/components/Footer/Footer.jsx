@@ -37,7 +37,7 @@ export const Footer = () => {
     <div className="footerCard flex">
       <div className="footerIntro flex">
         <div className="logoDiv">
-          <a   className='logo flex'>
+           <a href='/'  className='logo flex'>
           <MdTravelExplore  className='icon'/>Travel.
           </a>
         </div>

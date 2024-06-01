@@ -15,28 +15,28 @@ const removeNavbar=()=>{
    <section className='navBarSection'>
 <header className='header flex'>
 <div className='logoDiv'>
-    <a   className='logo'>
+     <a href='/'  className='logo'>
      <h1><MdTravelExplore  className="icon"/>Travel.</h1>   
     </a>
 </div>
 <div className={active}>
     <ul className='navlist flex'>
         <li className='navItem'>
-            <a   className='navLink'>Home</a>
+             <a href='/'  className='navLink'>Home</a>
         </li>
         <li className='navItem'>
-            <a   className='navLink'>Packages</a>
+             <a href='/'  className='navLink'>Packages</a>
         </li>
         <li className='navItem'>
-            <a   className='navLink'>shop</a>
+             <a href='/'  className='navLink'>shop</a>
         </li>
         <li className='navItem'>
-            <a   className='navLink'>pages</a>
+             <a href='/'  className='navLink'>pages</a>
         </li>
         <li className='navItem'>
-            <a   className='navLink'>Contact</a>
+             <a href='/'  className='navLink'>Contact</a>
         </li>
-        <button className='btn' ><a href="#">Book now</a></button>
+        <button className='btn' > <a href='/'href="#">Book now</a></button>
     </ul>
     <div  onClick={removeNavbar} className='closeNavbar'><IoIosCloseCircle /></div>
 </div>
