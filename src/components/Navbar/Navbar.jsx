@@ -15,26 +15,26 @@ const removeNavbar=()=>{
    <section className='navBarSection'>
 <header className='header flex'>
 <div className='logoDiv'>
-    <a href='#' className='logo'>
+    <a   className='logo'>
      <h1><MdTravelExplore  className="icon"/>Travel.</h1>   
     </a>
 </div>
 <div className={active}>
     <ul className='navlist flex'>
         <li className='navItem'>
-            <a href='#' className='navLink'>Home</a>
+            <a   className='navLink'>Home</a>
         </li>
         <li className='navItem'>
-            <a href='#' className='navLink'>Packages</a>
+            <a   className='navLink'>Packages</a>
         </li>
         <li className='navItem'>
-            <a href='#' className='navLink'>shop</a>
+            <a   className='navLink'>shop</a>
         </li>
         <li className='navItem'>
-            <a href='#' className='navLink'>pages</a>
+            <a   className='navLink'>pages</a>
         </li>
         <li className='navItem'>
-            <a href='#' className='navLink'>Contact</a>
+            <a   className='navLink'>Contact</a>
         </li>
         <button className='btn' ><a href="#">Book now</a></button>
     </ul>
